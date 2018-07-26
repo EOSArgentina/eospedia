@@ -1,4 +1,4 @@
 # Airdrops
 
-![](../../.gitbook/assets/image%20%2857%29.png)
+![](../../.gitbook/assets/airdrops-es.png)
 

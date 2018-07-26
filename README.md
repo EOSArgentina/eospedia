@@ -19,9 +19,11 @@ Toda la documentación creada en esta página puede ser encontrada en el reposit
 {% code-tabs %}
 {% code-tabs-item title="Repositorio de Github" %}
 ```text
-repository: https://github.com/eosargentina-docs/eospedia
+repository: https://github.com/eosargentina/eospedia
 branch: es
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+
 
