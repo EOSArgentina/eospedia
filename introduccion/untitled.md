@@ -36,7 +36,7 @@ Bitcoin established proof of work or the Nakamoto signature as the way to bring 
 
 The fully shared ledger and the cost of proof of work, running at 4% for Bitcoin and 11% for Ethereum at the time of this paper’s writing, have offended many. Permissioned ledgers \(Swanson 2015\) were proposed to not only block those we want to exclude from enjoying the benefits of our ledger, but also to bring us back to the computer science roots of efficient consensus - practical but centralised designs well known in database science. Also proposed from time to time are proof of stake, exotic cryptography and secure enclaves. Corda \(Brown et al 2016\) established that consensus could be a user choice at select points within a contract of transactions. By allowing interchangeability of servers called notaries that can mediate the consensus by any of the above means, Corda reduces the network operating cost to a level comparable to today’s IT infrastructure. 
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/intro-1-en.png)
 
 **Value.** Similarly, there are a wide variety of mechanisms to establish a fungible value such as cash. Smartcard money in the 1980s - 1990s was typically implemented through persistent internal data stores in each card that negotiated atomic dualcard transactions. In the same timeframe, David Chaum’s eCash \(Chaum 1983\) popularised the notion of a coin, being a random number with a blinded signature that could be handed from user to user. Triple entry \(Grigg 2005\) established that each party could see the same receipt, each of which recorded a person to person transaction. Balance is calculated as the sum of receipts going in and out. 
 
@@ -108,7 +108,7 @@ This section describes some important architectural differences that the softwar
 
 In computer science, a deterministic state machine is built as a machine of code, state \(memory\), and events, both in and out. Every time something happens which causes a change, a practical machine saves intermediates to memory, and on restarting it recovers itself by reading back those intermediates. In building a practical state machine, we have a choice between saving events or saving state, which choice depends mostly on what we are trying to optimise.
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/intro-2-en.png)
 
 In Figure 2, are we to save the red messages or the blue state? A machine saving state is more likely to be used in a context where we focus on what state it is in now, for example databases. A machine saving messages as intent is more likely to be useful when asking how we got to the state we are in now, for example protocols or legally significant logs such as triple entry accounting \(Grigg 2005\). Restart is faster with saved state, throughput is faster with saved messages. 
 
@@ -118,7 +118,7 @@ Because users need performance, the design saves messages. Restart of a messagin
 
 Like proof of work, producers can censor \(ignore\) messages, or they can front-run by introducing their own from their superior knowledge of the future. To provide light-touch governance over bad acts by producers, each round of producers is continuously elected by the community using proof of stake \(PoS\). As this second tier blockchain-mediated election is over the producers and not the blocks, the so-called “nothing at stake” weakness does not apply. In effect, a set of Generals is chosen for a campaign, and each get one turn. After the campaign, the civilian community asserts its view to replace any bad Generals. 
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/intro-3-en.png)
 
 DPOS avoids the tax of mining, releasing that substantial value back to stakeholders. Value from block rewards would be initially captured entirely by the producers. However, because they are elected by the community, they are incentivised to share the rewards by a scheme that producers agree on amongst themselves, and promote to the community. 
 
@@ -128,7 +128,7 @@ By constitution, the long term reward for producing blocks can be limited to for
 
 A user writes a contract as a virtual construct of interlocking handlers of messages. A user can convert her account into a contracting agent by adding message handlers and using her account’s inbuilt database-like store to hold the internal position of her contracts. Several message handlers working together can mediate a flow of messages so as to perform a complete contract or legally sound agreement through its lifecycle.
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/intro-4-en.png)
 
 From the perspective of a contract, the arrival, acceptance and processing of a message is a simpler abstraction than state. Consider an order processing book as seen in a market for exchange: the book accepts bids to buy and offers to sell. When the time comes, it has to calculate a price at which to cross, and then issue accepted orders to both sides. 
 
@@ -142,7 +142,7 @@ In the large, the EOS.IO developer will be supported by a web-based toolkit that
 
 It behoves us to analyse the language needs carefully. From the point of view of selecting technology for automated or smart contracting, the three stakeholders critical for success are: the parties, the developers and the operators.
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/intro-5-en.png)
 
 * The parties need a contract that is, first of all, an actual contract. Parties also want the contract to be negotiable, readable, clear, and unambiguous - they need their human intent to be captured faithfully. Preferably, contracts should also be supported by options for dispute resolution and enforceability.
 * The developer needs the language and wider system to be easy to learn and write in, as well as expressive and securable, goals that often ignore higher semantics or contractual intent.
@@ -164,7 +164,7 @@ Along those lines, our first temptation was towards the developer: a source-inte
 
 This hybrid of Wren is simple to learn, read, and reason about, making it ideal for automated contracting. However, it proved to be slow: a trial of trivial transactions capped out at 1,000 TPS, which brings us into collision with the needs of operators, our producers and application businesses. 
 
-![Fig. 6. Members forge a Community with a Constitution](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/intro-6-en.png)
 
 As we are aiming for 100 times that level, the team switched to WebAssembly \(WASM\) which is a new intermediate language designed to do the job that Javascript currently does within browsers. WASM’s first unoptimised trial within the EOS framework delivered about 50,000 TPS for a currency contract. 
 
@@ -176,7 +176,7 @@ In the face of The DAO and other experiences, I suggest that the rule of one con
 
 As of the time of writing, the set of languages available to the contract developer is a work in progress. Whether WASM or Wren or another, we will still need to structure the language for performance and usability. Each named message handler will need to identify sections for each of static, readonly and read-write code, each having different potentials for optimisation. To eliminate re-entrant issues, outgoing messages will be stacked until completion, or dropped on failure. We intend to add a SQL-like table structure to significantly ease adoption by those who are familiar with databases. Crypto will be external and mostly invisible. 
 
-![Fig. 7. Community can appoint governors to manage responsibilities](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/intro-7-en.png)
 
 As with the entire space for DLT, the competition continues internally. Wren is small and tight. WASM is only just out of standardisation. WASM’s early tools target C and C++ which are popular but are more costly to write code in, in comparison to high level late-generation languages such as Wren. These challenges should not be insurmountable in the longer run as the WASM project is intended to work with most languages, and the bulk of the code in any DApp is outside the handlers, in the websites. The ability to accept many popular languages is enticing, an advantage available to Corda’s JVM but not easily reachable by Bitcoin or Ethereum without a holistic approach to the developer cycle. 
 
@@ -220,7 +220,7 @@ Then, as the contracts can be bilateral, the business flow could be split up: tr
 
 When bound together as a community under a Constitution, users will know that the rights, liabilities and obligations of their counterparties are at least to a basic standard, as expressed in a constitution and as enforced in dispute resolution. In addition reliable names and a web of trust can reduce the anonymity of the Internet and give people a sense of belonging to something important. 
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/intro-8-en.png)
 
 ACKNOWLEDGMENT 
 
