@@ -27,3 +27,11 @@ branch: en
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+{% hint style="info" %}
+**Our communication channels:**  
+  
+Telegram: [**@eospediaio**](https://t.me/eospediaio)  
+Email: [**eospedia@eosargentina.io**](mailto:eospedia@eosargentina.io)  
+****
+{% endhint %}
+
