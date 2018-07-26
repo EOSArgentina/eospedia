@@ -10,7 +10,7 @@ Este proyecto es una iniciativa del Productor de Bloques EOS Argentina con el ob
 
 Los contenidos de este repositorio se encuentran bajo licencia de código abierto y puede ser usados y distribuidos libremente.
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2827%29.png)
 
 ### ¿Cómo puedo contribuir?
 

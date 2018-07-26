@@ -26,11 +26,11 @@ Esta sección examina estos tres sistemas con base en algunas características a
 
 **Consenso.** Una de las características principales de una blockchain es que nos permite llegar a un consenso respecto de un bloque de transacciones, de tal forma que ninguna transacción entre en conflicto con otra en ningún bloque. El fundamento del consenso en las blockchain se basa en el famoso Problema de los Dos Generales. Desde hace mucho tiempo se han propuesto distintas soluciones a este problema para lograr acuerdos entre protagonistas remotos. El objetivo final es tener certeza que ambas partes puedan decir: “Yo sé que lo que tú miras es lo que yo miro”. Ver Figura 1. 
 
+![](../.gitbook/assets/image%20%2863%29.png)
+
 Bitcoin estableció la prueba de trabajo \(proof of work\) o la firma Nakamoto como el sistema que permite reunir a toda una comunidad de entrada abierta en un solo libro mayor distribuido \(registro compartido de transacciones\), del cual todas las partes retienen una copia completa. Este mecanismo opera una lotería entre los mineros para determinar quién mina el bloque. Los mineros compiten en la lotería intentando resolver algoritmos SHA2 pero, debido a que este proceso requiere energía, el ganador de la lotería es premiado con una cantidad fija de bitcoin. En efecto, cualquiera puede ser un General y el que gana la lotería es el que fija el plan de batalla en ese momento. Los Generales que le siguen pueden aceptar ese plan \(o bloque\) o rechazarlo cuando no sea válido. 
 
 Muchos han encontrado ofensivos el concepto de un libro mayor totalmente compartido y el costo de la prueba de trabajo que este sistema conlleva \(el costo del proof-of-work para Bitcoin es de 4% y para Ethereum es de 11% al momento que se escribió este artículo\). Se ha propuesto utilizar Libros Mayores con Permiso \(Permissioned Ledgers\) \(Swanson, 2015\) no solo para bloquear a aquellos que queremos excluir de los beneficios de nuestro libro mayor, sino también para que podamos regresar a las raíces de la ciencia de la computación: un consenso eficiente que operan mediante diseños prácticos pero centralizados, en otras palabras, diseños que ya son bastante conocidos en la ciencia del almacenamiento de datos. También se ha propuesto aplicar pruebas de participación \(POS, proof of stake\), criptografías exóticas y énclaves seguros. Corda \(Brown et al., 2016\) estableció que el consenso lo puede decidir el usuario en puntos seleccionados dentro de un contrato de transacciones. Esto se hace por medio de servidores llamados notarios que sirven como mediadores de consenso que utiliza cualquiera de los medios antes mencionados. La ventaja de que Corda permita que los notarios sean intercambiables es que han logrado reducir el costo operativo de su red a un nivel comparable al de la infraestructura típica de cualquier sistema operativo actual.
-
-![](../.gitbook/assets/image%20%2822%29.png)
 
 **Valor.** De forma similar, a lo largo de los años ha existido una gran variedad de mecanismos para establecer un valor fungible como el dinero en efectivo, por ejemplo. Entre 1980 y 1990, el dinero de las tarjetas inteligentes usualmente funcionaba por medio de almacenamiento de datos internos en cada tarjeta, es decir, existía un sistema interno el cual negociaba transacciones atómicas de tarjetas duales. En la misma década, el eCash de David Chaum \(Chaum, 1983\) popularizó la idea de una moneda que consistía en un número al azar con una firma digital ciega que podía ser transferible de un usuario a otro. Más recientemente, la contabilidad de triple entrada propuesta por Grigg \(2005\) establece que cada parte puede ver el mismo recibo, cada uno del cual registra una transacción de persona a persona. Por lo tanto, el balance se calcula como la suma de recibos que entran y salen. 
 
@@ -100,7 +100,7 @@ Este inciso describe algunas diferencias arquitectónicas que el software de sop
 
 En la ciencia de la computación, las máquinas que determinan estados están construidas como máquinas de código, de estado \(memoria\) y de eventos, tanto entrantes como salientes. Cada vez que algo ocurre que cause un cambio, una máquina práctica guarda los intermediarios de la memoria y, al reiniciarse, la máquina recupera su memoria al interpretar dichos intermediarios. Cuando se construye una máquina de estado práctica, podemos decidir si almacenamos eventos o el estado, una decisión que depende principalmente en qué estamos tratando de optimizar. 
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 En la Figura 2, ¿debemos guardar los mensajes rojos o el estado azul? Una máquina que almacena el estado probablemente se use más en un contexto donde la prioridad es determinar el estado de un momento específico, por ejemplo, en las bases de datos. Una máquina que guarda mensajes probablemente sea más útil cuando sea más importante preguntarnos cómo llegamos al estado en el que estamos en este momento, por ejemplo en los protocolos o en los libros de registro con poder legal tales como contabilidad de triple entrada \(Grigg, 2005\). Aunque ambos procesos son útiles, estos difieren en lo siguiente: el reinicio de una máquina es más rápido si se guarda el estado; el proceso de enviar de un punto a otro es más rápido cuando se almacenan mensajes. 
 
@@ -114,21 +114,21 @@ Ya que la elección mediada por blockchain del segundo nivel del DPOS es sobre l
 
 En efecto, se escoge un grupo de Generales para una campaña y cada uno tiene un turno. Después de la campaña, la comunidad civil opina si se reemplaza o no a los Generales que no rindieron adecuadamente. 
 
-![](../.gitbook/assets/image%20%2827%29.png)
-
 El DPOS evita el impuesto de minería, lo que implica que se libera un valor sustancial que  regresa a las partes interesadas del proyecto. El valor de los premios por la validación de mensajes y producción de bloques inicialmente sería captado enteramente por los productores. Sin embargo, puesto que estos son electos por la comunidad, tienen el incentivo de compartir los premios mediante un esquema que acuerden los productores entre ellos y que promueven ante la comunidad. 
 
 De acuerdo a la Constitución, el premio a largo plazo por producir bloques se debería limitar, por ejemplo, al 5% anual \(Larimer, 2017-2\). En la práctica, sugerimos que se retorne la mayor parte del valor a la comunidad para el bien común – mejoras en el software, resolución de conflictos y cosas similares. Manteniendo el espíritu de ‘probar nuestro propio producto’, el diseño contempla que la comunidad vote sobre un conjunto de contratos de entrada abierta que sirvan como los “cimientos” que beneficiarán a toda la comunidad. Este mecanismo se le conoce como Contratos de Beneficio Comunitario, el cual resalta la importancia del DPOS para facilitar la gobernanza directa de la comunidad sobre las cadenas.
+
+![](../.gitbook/assets/image%20%285%29.png)
 
 **El contrato.** El diseño o arquitectura se acerca más a la naturaleza de la contratación porque trata los contratos como una expresión  dinámica de negociación, compromiso y eventos, en lugar de interpretarlos de forma más estática como ‘las cuatro esquinas de una página’ o el código de rendimiento dentro de una máquina. Proponemos que los mensajes constituyen en esencia los elementos de un contrato, puesto que captan mejor todas las fases de una contratación exitosa: la negociación, la intención, el rendimiento y el incumplimiento de las obligaciones son todos eventos que se captan mejor como mensajes que como estados. 
 
 Un usuario escribe un contrato como una construcción virtual de gestores de manejadores de mensajes. Un usuario puede convertir su cuenta en un agente contratante si incorpora manejadores de mensajes y si usa el almacenamiento de datos inherente en su cuenta para retener la posición interna de sus contratos. Varios manejadores de mensajes trabajando juntos pueden mediar un flujo de mensajes para poder llevar a cabo un contrato completo o un acuerdo legalmente confiable de principio a fin. 
 
-![](../.gitbook/assets/image%20%2860%29.png)
-
 Desde la perspectiva de un contrato, la llegada, aceptación y procesamiento de un mensaje implican una abstracción más sencilla que si se hiciera con un estado. Consideremos, por ejemplo, un libro de procesamiento de pedidos en un mercado de valores: el libro registra ofertas de compra y de venta. Cuando llega el momento adecuado, debe calcular un precio de punto de equilibrio, para luego emitir pedidos para ambos lados. 
 
 Un libro de pedidos dentro de un sistema basado en mensajes se compromete a un conjunto de mensajes entrantes y un conjunto de mensajes salientes, lo cual representa una tarea relativamente fácil de rastrear. En contraste, en un sistema basado completamente en el estado, todos los negociadores tienen que negociar entre sí el estado que consideren aceptable — incluyendo cantidades, precios y una gran cantidad de partes involucradas —, antes de someter a consideración un estado final a la blockchain. Esto implica que los negociadores podrían entrever la solución, antes de llegar al acuerdo general, y se abriría la posibilidad de hacer trampa. En la práctica, la única forma que sabemos puede resolver este problema es con agentes y mensajería. Un agente activo recibe mensajes ejecutados \(committed messages\), decide el resultado, y envía mensajes que se ejecutan ante ese resultado.
+
+![](../.gitbook/assets/image%20%2864%29.png)
 
 **Uso.** El usuario directo de una blockchain es el desarrollador que crea aplicaciones web para sus usuarios finales. Para lograr apoyar a un usuario final, el software debe apoyar, antes que nada, al desarrollador, y se debe hacer de manera que ayude al desarrollador a apoyar a sus usuarios. Las características que determinan la calidad del apoyo que el software le brinda al desarrollador incluyen: \(a\) las herramientas, \(b\) el lenguaje y \(c\) el ambiente. 
 
@@ -144,7 +144,7 @@ Por lo tanto, tenemos que analizar de forma meticulosa las características que 
 
 Si tomáramos en consideración las necesidades de las partes, primero necesitaríamos combinar la prosa legal \(en texto sin formato\) y el lenguaje de codificación, e incluir algunos parámetros que nos permitieran “impulsar el acuerdo” y reutilizar la misma prosa y el mismo código para muchos contratos \(Grigg 2015\). Muchos esfuerzos de investigación han tratado de fusionar los dos elementos de la contratación inteligente — código y prosa legal—, ya sea como parámetros de orden superior o como un lenguaje legalmente expresivo de dominio específico \(Clack1 et al., 2016, ver su Figura 5\). Sin embargo, ninguno, hasta el momento, ha descubierto cómo hacerlo. Esta es un área de investigación abierta que ha resultado en varias posibilidades de diseños, pero ninguno ha sido aprobado en la comunidad \(Clack2 et al., 2016\).
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 Siguiendo esta línea, nuestra primera tentación fue inclinarnos hacia lo que busca el desarrollador: un lenguaje interpretado de código fuente \(source-interpreting scripting language\) basado en Wren y adecuado para administrar el diseño de un manejador de mensajes contractuales. A continuación, un extracto del código \(Larimer 2017-1\): 
 
@@ -166,13 +166,13 @@ Sin embargo, WASM transfiere el reto de los operadores a las partes – ahora ha
 
 Por lo tanto, es razonable preguntar - ¿qué es o dónde está el contrato que las partes acordaron? Quisiera responder de manera frontal a esa pregunta. Durante las dos décadas, más o menos, en que he visto que se emiten contratos en la red —ya sea Ricardiano o de cualquier otro modelo— y las cientos de emisiones que han surgido de los mismos, aún no he visto una disputa, ni siquiera una confusión en la que lo que decía el contrato o lo que significaba era la clave del desacuerdo. Aún en el incidente de The DAO, —esa desafortunada lección de $150 millones sobre cómo no emitir un contrato— la causa probable del hack fue por cuestiones de seguridad. Aunque habían varias desacuerdos e interpretaciones con respecto al significado contractual del hack, la única respuesta para solventar el problema fue cambiar arbitrariamente lo que había que cambiar para recuperar el dinero. No hubo ni siquiera un mínimo intento para resolver la disputa sobre la interpretación de los hechos, el significado y los derechos. Todavía está abierta la pregunta sobre qué proporción de las disputas en las cortes se basa por interpretaciones ambiguas de significados o por confusiones, y qué porcentaje son simplemente juegos de poder e intimidación; pero no soy optimista.
 
-![](../.gitbook/assets/image%20%2859%29.png)
+![](../.gitbook/assets/image%20%2862%29.png)
 
 Ante El DAO y otras experiencias, sugiero que la regla de un único contrato \(Grigg 2004\) parece ser dogmática y exageradamente constrictiva. En lugar de eso, por lo menos para la parte no-regulada de las DLTs, hay oportunidad de liberar los componentes del contrato para lograr un mejor rendimiento, aún si se abre la pequeña posibilidad de una discordancia. Mientras tanto, debemos enfocarnos en la gobernanza y en lograr que la resolución de desacuerdos esté disponible y sea cómoda para las partes. 
 
 En el momento en que se redactó este documento, todavía se está trabajando en las opciones de lenguajes que estarán disponibles para los desarrolladores de contratos. Ya sea con WASM o Wren u otro, seguiremos teniendo que estructurar el lenguaje para que rinda y se pueda usar. Cada manejador de mensajes tendrá que identificar las secciones en las que quiera utilizar código estático, solo lectura \(read-only\), y de lectura y escritura \(read-write\), cada uno de los cuales tiene diferente potencial de optimización. Para eliminar problemas de reentrancia, los mensajes salientes se almacenarán hasta completarse o serán descartados si el sistema tiene una falla. Nuestra intención es agregar una estructura de tabla similar a SQL \(lenguaje de consulta estructurada\) para que aquellos que están familiarizados con los sistemas convencionales de bases de datos puedan adoptar nuestra estructura fácilmente. La criptografía será externa, casi enteramente invisible.
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
 Así como en los demás espacios de DLT, la competencia continúa internamente. Wren ofrece un espacio pequeño y compacto. WASM a penas fue estandarizado hace poco tiempo. Las primeras herramientas de WASM fueron diseñadas para lenguajes C y C++, pero a pesar que estos son bastante populares, implican un mayor costo al momento de escribir códigos, en comparación con lenguajes de mayor nivel y de generaciones avanzadas, tales como Wren. Estos retos probablemente no sean imposibles de solucionar a largo plazo, ya que el proyecto WASM está diseñado para trabajar con la mayoría de los lenguajes, y la mayor parte del código de cualquier Dapp está fuera del alcance de los manejadores, en los sitios de la red. La idea de un sistema versátil que acepta muchos lenguajes es muy atractiva. A pesar de que esta es una ventaja con la que podría contar Corda gracias a la implementación de JVM, ni Bitcoin ni Ethereum podrían tener esta flexibilidad a menos que adopten un enfoque más holístico con respecto al ciclo de desarrollador. 
 
@@ -218,7 +218,7 @@ Entonces, como los contratos pueden ser bilaterales, el flujo del negocio se pod
 
 Cuando están comprometidos como comunidad bajo una Constitución, los usuarios sabrán que los derechos, las responsabilidades contractuales y las obligaciones de sus contrapartes están por lo menos ajustadas a un estándar básico, como se expresa en una Constitución y como se hace valer en la resolución de conflictos. Adicionalmente, usar nombres confiables y trabajar en una red de confianza pueden reducir la anonimidad de la Internet y darle a la gente un sentido de pertenencia a algo importante. 
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2852%29.png)
 
 RECONOCIMIENTOS 
 

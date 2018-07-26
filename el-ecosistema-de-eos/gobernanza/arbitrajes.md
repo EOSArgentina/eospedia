@@ -1,4 +1,4 @@
 # Arbitrajes
 
-![](../../.gitbook/assets/image%20%2855%29.png)
+![](../../.gitbook/assets/image%20%2858%29.png)
 
