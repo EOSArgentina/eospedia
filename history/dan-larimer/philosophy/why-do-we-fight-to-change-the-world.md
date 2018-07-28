@@ -8,7 +8,7 @@ Source and acknowledgement: [https://steemit.com/eos/@dr-waldo/por-que-luchamos-
 
 What are we working toward and why does it matter? How do we get there? Should we give up comforts today in pursuit of an illusive utopia that we hope to bring about? These are the questions that need to be answered and understood at a deep level if we actually want to change the world. Will changing the world actually make our life better? Wouldn’t it simply be easier to just make as much money as we can, have as much fun as possible, and take the easiest road? Why bother with anything that could bring unnecessary pain and suffering with little probability of reward?
 
-### My Mission in Life
+## My Mission in Life
 
 I have long held that my mission is to find free market solutions for securing life, liberty, and property. This mission is deeply rooted in the belief that initiation of violence is not necessary to live in a well ordered society and that everyone’s life would be better off if it could be achieved. This is a belief I choose because there is insufficient evidence to prove violence is necessary.
 
@@ -20,7 +20,7 @@ Changing the world is a mission that is bigger than any one person. It requires 
 
 If I am to be successful in convincing others to take these risks, then I must face my own demons and conquer my own fears. I must find and articulate an argument that is powerful enough to bring millions of people into a movement. I would be dishonest if I said I don’t struggle with these things. It is because of my own internal struggles that I sat down to organize my thoughts in this article.
 
-### Privatized Costs and Socialized Benefits
+## Privatized Costs and Socialized Benefits
 
 The core problem with absolutely every resistance movement is a tragedy of the commons. We all want to be free to live our lives in peace and no one wants to face jail time or death by government. The costs to the individual are immediate and potentially infinite, but the benefits they receive, if any, accrue to the masses of ungrateful strangers way in the future, if ever.
 
@@ -28,11 +28,11 @@ This economic reality means that most resistance movements do not gather support
 
 The economic and political enslavement of mankind will continue until Atlas is unable to carry the world on his shoulders and the whole world suffers an economic collapse. It is from the depth of this collapse that people have nothing left to lose and real change is possible.
 
-![](https://steemitimages.com/0x0/https://s-media-cache-ak0.pinimg.com/736x/0a/41/a4/0a41a43f5243ce2fdb7b643679bdeda7.jpg)   
-  
+![](https://steemitimages.com/0x0/https://s-media-cache-ak0.pinimg.com/736x/0a/41/a4/0a41a43f5243ce2fdb7b643679bdeda7.jpg)
+
 The Bank of Evil - Despicable Me
 
-### Do we accept reality or resist it?
+## Do we accept reality or resist it?
 
 Those who practice meditation or follow Eckhart Tolle know that all suffering is something we put ourselves through by resisting the world as it is now, this very moment.
 
@@ -46,7 +46,7 @@ When we approach life with a resistance to what is we are tempted to respond out
 
 Why should we label violence as bad and non-violence as good? Aren’t these very labels the source of our suffering? And if we remove these labels, what meaning is there in creating a non-violent society? Why should we suffer to bring it about?
 
-### Non-violence isn’t a Technique it is a result of Accepting Reality
+## Non-violence isn’t a Technique it is a result of Accepting Reality
 
 What is the purpose of violence? Why do we use it? Violence is a response \(resistance\) to what is. It is a rejection of reality. Violence is the result of an inability to see the aliveness in others; an inability to feel connected with all of life.
 
@@ -56,7 +56,7 @@ So without labeling violence as good or bad, we can see that its root cause is i
 
 In what situation can someone simultaneously claim they are at peace in the present moment and feel that initiating violence is _necessary_? What motive is there for violence that is not rooted in an attachment to outcomes? How much more do we suffer from our resistance and attachment than we do from whatever it is we think violence will solve?
 
-### When you find true freedom, you have nothing left to lose.
+## When you find true freedom, you have nothing left to lose.
 
 Once you master _living in the moment_ then all of your self-inflicted emotional suffering ends. There is no more anger and no more attachment to things or outcomes. With this you also free yourself from manipulation by the powers that be.
 
@@ -64,7 +64,7 @@ Once you master _living in the moment_ then all of your self-inflicted emotional
 
 This state of being creates a paradox for those with aims to change the world. If you are at complete peace with the way things are, then what motive is there to change the world? On what basis should you choose to act? This is the very heart of economics, the study of human action. This is the root of my current internal conflict.
 
-### Is Economic Thinking a Fallacy for Awakened Individuals?
+## Is Economic Thinking a Fallacy for Awakened Individuals?
 
 If we view man as a purely economic creature we assume all actions are in someway tied to profit seeking activities. We assume that profit is the motive force. It might be fair to say that most of economics is based upon the assumption of an unenlightened individual stuck in a capitalist rat race.
 
@@ -72,17 +72,17 @@ All of economic calculation boils down to risk / reward or profit and loss. It i
 
 > In awakened doing there is complete internal alignment with the present moment and whatever you are doing right now. The doing is then not primarily a means to an end, but an opening for consciousness to come into this world.
 
-### Basis for Acting
+## Basis for Acting
 
 If we are not motivated by desire for profits or fear of loss, then how should we decide what actions to take each moment? Eckhart suggests that everything should be done from acceptance \(fixing a flat tire in the rain\), enjoyment, or enthusiasm \(creating something\).
 
 > You have a goal. You know where you are going. The goal has its importance. But the doing is what is truly fulfilling. Every enthusiastic person has a goal that may be important, but the doing is intensely fulfilling, and it is the essence of enthusiasm. ~ Eckhart Tolle
 
-### The Means is Everything - The End doesn’t Matter
+## The Means is Everything - The End doesn’t Matter
 
 All of a sudden we learn something profound. If our goal is a non-violent voluntarist society, then there is no point in using violence _now_. This moment is all there is and in this moment we can choose to use violence or not use violence. If your aim is to bring non-violence into the world, then it must be done by non violent means.
 
-### What I learned writing this Article
+## What I learned writing this Article
 
 When I sat down to write this article I didn’t know what my conclusion would be. I just knew there was an internal, and unresolved conflict within. Now that I am 1700 words into it, I have rediscovered and reconnected with the motivation behind my mission.
 
