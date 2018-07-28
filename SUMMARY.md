@@ -12,6 +12,7 @@
     * [Philosophy](history/dan-larimer/philosophy/README.md)
       * [Why do we fight to change the world?](history/dan-larimer/philosophy/why-do-we-fight-to-change-the-world.md)
       * [Does Freedom Require Radical Transparency or Radical Privacy?](history/dan-larimer/philosophy/does-freedom-require-radical-transparency-or-radical-privacy.md)
+      * [Does Freedom Require Radical Transparency or Radical Privacy? v2](history/dan-larimer/philosophy/does-freedom-require-radical-transparency-or-radical-privacy-v2.md)
   * [Block.one](history/block.one.md)
 * [EOS Ecosystem](eos-ecosystem/README.md)
   * [Components](eos-ecosystem/components/README.md)
