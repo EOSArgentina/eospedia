@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome to EOSPEDIA.IO](README.md)
+* [How to Participate?](how-to-participate.md)
 * [Introduction](introduction/README.md)
   * [Introduction to EOS](introduction/introduction-to-eos.md)
   * [Benefits](introduction/benefits.md)
