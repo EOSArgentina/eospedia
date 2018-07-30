@@ -1,6 +1,6 @@
 ---
 description: >-
-  This section is oriented to the people in the community that wants to
+  This section is oriented to the people in the community that want to
   contribute with the EOSpedia.io Project
 ---
 
@@ -14,17 +14,17 @@ description: >-
 
 **BECOME A LANGUAGE COORDINATOR**
 
-We are currently supporting English and Spanish as the first languages for **EOSpedia.io**, if you are interested in support for new languages, please contact us so we can work together to enable new languages as we go.  
+We are currently supporting English and Spanish as the first languages for **EOSpedia.io**, if you are interested in supporting a new language, please contact us so we can work together to enable new languages as we go.  
   
 We want to contact community members that have the desire to become a **Language Coordinator** to organize the efforts for each language so we can reach the whole EOS Community in their own language.
 
-### Do you want to help to translate content?
+### Do you want to help translating content?
 
 **BECOME A TRANSLATOR**
 
 The base repository or “master” branch of **EOSpedia.io** is in English because this is the most widespread second language around the globe and it will be easier this way to translate from/to it.
 
-Once a change is approved into the “master” repository those changes needs to be translated to all other languages, and this is when the **Translator** steps in, the **Language Coordinators** will be in contact with the **Translators** to indicate the changes that are pending and work together to maintain the pages up to date.
+Once a change is approved into the “master” repository those changes need to be translated to all other languages, and this is when the **Translator** steps in, the **Language Coordinators** will be in contact with the **Translators** to indicate the changes that are pending and work together to maintain the pages up to date.
 
 ### Do you want to add new sections or articles?
 
