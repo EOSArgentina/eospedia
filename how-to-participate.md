@@ -8,14 +8,12 @@ description: >-
 
 ## In which ways may I contribute to the EOSpedia.io Project?
 
-
-
 ### **Do you want to help to support a new language?**
 
 **BECOME A LANGUAGE COORDINATOR**
 
-We are currently supporting English and Spanish as the first languages for **EOSpedia.io**, if you are interested in supporting a new language, please contact us so we can work together to enable new languages as we go.  
-  
+We are currently supporting English and Spanish as the first languages for **EOSpedia.io**, if you are interested in supporting a new language, please contact us so we can work together to enable new languages as we go.
+
 We want to contact community members that have the desire to become a **Language Coordinator** to organize the efforts for each language so we can reach the whole EOS Community in their own language.
 
 ### Do you want to help translating content?
@@ -34,8 +32,7 @@ If you are a **Content Creator** and want to help **EOSpedia.io** adding new sec
 
 New content needs to come with its English version so we can add it to the “master” branch and spread it to other languages.
 
-If you have the article in your language but you can’t translate it to English you may contact us through the telegram channel and we will try to find a **Translator** or **Language Coordinator** that can help you with the task.  
-
+If you have the article in your language but you can’t translate it to English you may contact us through the telegram channel and we will try to find a **Translator** or **Language Coordinator** that can help you with the task.
 
 ## Communication Channels
 
@@ -59,22 +56,19 @@ You will find a dropdown in the GitHub of **EOSpedia.io** with the “master” 
 
 ![GitHub branches per language](.gitbook/assets/howto-branches.png)
 
-You can now select your language from the dropdown to see the contents of the repository for your language. Depending on the type of task you want to do you will have 2 options: Translations and Content Creation.  
-
+You can now select your language from the dropdown to see the contents of the repository for your language. Depending on the type of task you want to do you will have 2 options: Translations and Content Creation.
 
 ### Steps for Translators
 
-In this case the page you need to translate will probably be already created and you have been assigned to work on it after talking with a **Language Coordinator**. You will have the direct link to the page or you can navigate through the folders in GitHub to get to it.  
-
+In this case the page you need to translate will probably be already created and you have been assigned to work on it after talking with a **Language Coordinator**. You will have the direct link to the page or you can navigate through the folders in GitHub to get to it.
 
 **Performing a translation**
 
-In the example below we have been assigned with the translation to Spanish of the “Differences-with-ethereum.md” page.  
-****
+In the example below we have been assigned with the translation to Spanish of the “Differences-with-ethereum.md” page.
 
 **Step 1 - Find the page**
 
-Navigate to the folder that contains the page you want to translate.  Be sure to be in the branch of the language that you are going to be translating \(If you need to translate an article to Spanish you should be at the "es" branch\)
+Navigate to the folder that contains the page you want to translate. Be sure to be in the branch of the language that you are going to be translating \(If you need to translate an article to Spanish you should be at the "es" branch\)
 
 ![](.gitbook/assets/howto-translators-findpage.png)
 
@@ -97,9 +91,9 @@ Be sure that during the process of translation you don't break any link or image
 
 **Step 5 - Translate the images**
 
-In the case that you need to translate an image, you will need to upload it to the folder /eospedia/.gitbook/assets   
-Go to that folder, and click "Upload Files", you will see a page similar to the one below.  Then you can drag and drop the required files to the folder.  
-  
+In the case that you need to translate an image, you will need to upload it to the folder /eospedia/.gitbook/assets  
+Go to that folder, and click "Upload Files", you will see a page similar to the one below. Then you can drag and drop the required files to the folder.
+
 The nomenclature for the files should be: original\_file\_name + "-" + branch\_name + file extension
 
 Ex.: original file name **"constitution-en.png"**, if you are working in the "pt" branch should be **"constitution-pt.png"**
@@ -112,7 +106,7 @@ Ex.: original file name **"constitution-en.png"**, if you are working in the "pt
 
 **Step 6 - Preview your changes**
 
-By clicking on "Preview changes" you will be able to see a preview \(not exact preview but very approximated\) to how EOSpedia.io will show the page.   
+By clicking on "Preview changes" you will be able to see a preview \(not exact preview but very approximated\) to how EOSpedia.io will show the page.  
 Review it before going to next step.
 
 **Step 7 - Commit your changes**
@@ -125,8 +119,6 @@ At this stage you are done, you just have to commit \(submit\) your changes, you
 
 Your changes will have a review from a Language Coordinator for feedback and if everything goes well your changes will be soon after at the **EOSpedia.io** page.
 
-
-
 ### Steps for Content Creators
 
 **Content Creators** are able to propose entire new sections or an article within a section, let’s remember that this process should be done twice:
@@ -134,7 +126,7 @@ Your changes will have a review from a Language Coordinator for feedback and if 
 1. First a version in English that will be published to the **"master" branch** in order to use it to spread the change to the other languages.
 2. Second, in the original language that will be published in the specific **language branch**. 
 
-#### **Proposing new Sections** 
+#### **Proposing new Sections**
 
 The sections that are shown as collapsible items in **EOSPedia.io** ...
 
@@ -144,14 +136,12 @@ The sections that are shown as collapsible items in **EOSPedia.io** ...
 
 ![Table of Contents in GitHub](.gitbook/assets/howto-creators-indexgithub.png)
 
-  
-In the example below we want to create a new “Development” section:  
-
+In the example below we want to create a new “Development” section:
 
 **Step 1 - Find the Folder**
 
-Go to the folder in which you want to create the new section by navigating the folders, in this case, we want to create it in the root.  
-  
+Go to the folder in which you want to create the new section by navigating the folders, in this case, we want to create it in the root.
+
 **Step 2 - Create a New File**
 
 Click on “Create new file”
@@ -175,14 +165,13 @@ Below you can start writing the intro for this section, for example:
 
 ![](.gitbook/assets/howto-creators-commitsection.png)
 
-**Step 6 -  Edit the Table of Contents**
+**Step 6 - Edit the Table of Contents**
 
-For this section to be viewed in **EOSpedia.io** index you need to update also the “Table of Contents” at eospedia/SUMMARY.md at the root of the repository.   
+For this section to be viewed in **EOSpedia.io** index you need to update also the “Table of Contents” at eospedia/SUMMARY.md at the root of the repository.  
 Go to this page and click the pencil icon to edit as shown below.
 
 ![](.gitbook/assets/howto-creators-toc.png)
 
-  
 **Step 7 - Add the Section to the Table of Contents**
 
 Add the new index with the path to the page.  
@@ -203,6 +192,5 @@ Your changes will have a review from a **Language Coordinato**r for feedback and
 #### **Proposing New Articles**
 
 Proposing new articles is very similar to proposing new sections, the only difference is that no folder creation is required, and the name of the page doesn’t need to be “README.md”.  
-You can follow the same steps as in the previous sections with this considerations.  
-
+You can follow the same steps as in the previous sections with this considerations.
 

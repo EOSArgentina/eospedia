@@ -1,3 +1,7 @@
+---
+description: The EOS Documentation Project in your Language
+---
+
 # Welcome to EOSPEDIA.IO
 
 ![](.gitbook/assets/eospedia.io-1.png)
@@ -8,7 +12,7 @@ Ir a la [**VERSION EN ESPAÑOL**](https://www.eospedia.io/)
 
 ## Who maintains this repository?
 
-This project is an initiative of EOS Argentina Block Producer with the goal to generate a content space for the community. We hope that the community from all around the world joins this initiative in order to create contents both trusted and updated.
+This project is an initiative of EOS Argentina Block Producer with the goal to generate a EOS documentation space for the community. We hope that the community from all around the world joins this initiative in order to create contents both trusted and updated.
 
 The contents of this repository are under the open source license, they can be used or distributed freely.
 
