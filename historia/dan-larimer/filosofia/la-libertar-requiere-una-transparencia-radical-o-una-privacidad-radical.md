@@ -81,7 +81,7 @@ No superamos el crimen organizado construyendo defensas individuales más fuerte
 ### La Autoridad Moral
 
 | ![](https://steemitimages.com/DQmUtsobFbgG55sAzRvYQUv4yHBquChH5zxJXj6gdzxftw3/image.png)_La no violencia y la verdad son inseparables y presuponen una a la otra - Mahatma Gandhi.La no violencia, \(y por lo tanto la verdad y la transparencia\), es la más grande fuerza a disposición de la humanidad. Es más poderosa que la más poderosa de las armas de destrucción imaginadas por el ingenio del hombre - Gandhi_ | La transparencia es el fundamento necesario para asegurar la autoridad moral. En la ausencia de transparencia los gobiernos usan su control sobre la información para ocultar la realidad y calumniar a quien sea necesario para justificar sus acciones. Es solo a través del secreto y las mentiras que los gobiernos pueden mantener la ilusión de autoridad moral.Adoptar un plan de transparencia radical provoca tanto miedo como una revolución no-violenta contra una tiranía. Personas que no han hecho nada malo pueden resultar heridas y algunas pueden morir. Como dijo Gandhi, la no violencia requiere una cierta fe en la bondad humana, pero ocurre lo mismo con los gobiernos o la anarquía. Aquellos que no tienen fe en los hombres están locos al otorgar a gobiernos manejados por hombres el poder moral del uso de la violencia.Aquellos que resultan heridos serán los mártires que exponen la brutalidad del gobierno y aglomeran a las masas tras el inocente mientras socavan la autoridad de gobiernos violentos. Cuando la comunidad viene en ayuda de aquellos que resultaron heridos, entonces y solo entonces es cuando los gobiernos pierden su poder. Esto es solo posible con transparencia. |
-| --- |
+| :--- | :--- |
 
 
 ### La Revolución de la Blockchain
