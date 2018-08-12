@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Welcome to EOSPEDIA.IO](README.md)
-* [How to Participate?](how-to-participate.md)
 * [Introduction](introduction/README.md)
   * [Introduction to EOS](introduction/introduction-to-eos.md)
   * [Benefits](introduction/benefits.md)
@@ -44,4 +43,5 @@
     * [Users](eos-ecosystem/actors/users.md)
     * [Venture Capital](eos-ecosystem/actors/venture-capital.md)
     * [Developers](eos-ecosystem/actors/developers.md)
+* [How to Participate?](how-to-participate.md)
 
