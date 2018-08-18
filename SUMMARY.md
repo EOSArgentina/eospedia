@@ -43,5 +43,7 @@
     * [Users](eos-ecosystem/actors/users.md)
     * [Venture Capital](eos-ecosystem/actors/venture-capital.md)
     * [Developers](eos-ecosystem/actors/developers.md)
+* [Tools and Services](tools-and-services/README.md)
+  * [Oracles](tools-and-services/oracles.md)
 * [How to Participate?](how-to-participate.md)
 
