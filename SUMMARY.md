@@ -41,4 +41,6 @@
     * [Usuarios](el-ecosistema-de-eos/actores/usuarios.md)
     * [Venture Capital](el-ecosistema-de-eos/actores/venture-capital.md)
     * [Desarrolladores](el-ecosistema-de-eos/actores/desarrolladores.md)
+* [Servicios y Herramientas](servicios-y-herramientas/README.md)
+  * [Oráculos](servicios-y-herramientas/oraculos.md)
 
