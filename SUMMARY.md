@@ -6,7 +6,7 @@
   * [Beneficios](introduccion/beneficios-tbt.md)
   * [Visión General de la Red](introduccion/network-overview-tbt.md)
   * [EOS.IO - Whitepaper](introduccion/eos.io-whitepaper.md)
-  * [Diferencias con Ethereum \[TBT\]](introduccion/diferencias-con-ethereum.md)
+  * [Diferencias con Ethereum](introduccion/diferencias-con-ethereum.md)
 * [Historia](historia/README.md)
   * [Dan Larimer](historia/dan-larimer/README.md)
     * [Filosofía](historia/dan-larimer/filosofia/README.md)
